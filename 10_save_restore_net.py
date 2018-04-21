@@ -5,9 +5,7 @@ import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 import os
 
-# This shows how to save/restore your model (trained variables).
-# To see how it works, please stop this program during training and resart.
-# This network is the same as 3_net.py
+# 如何存储模型
 
 # 定义权重函数
 def init_weights(shape):
